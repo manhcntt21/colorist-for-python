@@ -23,6 +23,8 @@ or _blinking effect_ (due to limitations of markdown rendering, you can not see 
     |`\e`|common alias for the escape character|
     |27|decimal representation of the escape character|
 the first part is called the **Control Sequence Introducer**(CSI), whichever option you use
+
+
 2. Sequence parts: all ansi escape code follow same pattern. The sequence \x1b[31m can be broken down like this: 
 
 |part|`\x1b[`| `31`                                                                                                                                        |`m`|
